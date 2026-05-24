@@ -844,6 +844,16 @@ export default function DreamyLoveWebsite() {
             chai ♡
           </p>
         </footer>
+    <audio
+  id="bg-music"
+  loop
+  preload="auto"
+>
+  <source
+    src="/audio/our-song.mpeg"
+    type="audio/mpeg"
+  />
+</audio>
       </main>
     </div>
   );
