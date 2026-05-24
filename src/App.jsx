@@ -420,9 +420,20 @@ export default function DreamyLoveWebsite() {
               <a href="#quiz">memory trail</a>
               <a href="#future">adventures together</a>
             </div>
-            <div className="rounded-full border border-[#d9c4c0] px-3 py-2">
-              ♪
-            </div>
+            <button
+  onClick={() => {
+    const audio = document.getElementById("bg-music");
+
+    if (audio.paused) {
+      audio.play();
+    } else {
+      audio.pause();
+    }
+  }}
+  className="rounded-full border border-[#d9c4c0] px-3 py-2 transition hover:bg-rose-50 hover:scale-110"
+>
+  ♪
+</button>
           </div>
         </nav>
 
