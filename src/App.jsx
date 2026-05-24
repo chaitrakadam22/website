@@ -55,8 +55,9 @@ export default function DreamyLoveWebsite() {
     'watch the sunrise somewhere pretty',
     'adopt a dog, maybe three',
     'road trip with no plan',
-    'dance in the kitchen at 2am',
-    'grow old in a tiny house',
+    'dance in the kitchen',
+    'grow old in a lovely house',
+    'buy lots of plantsss'
   ]);
 
   const loveLetter =
