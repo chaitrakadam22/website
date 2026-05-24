@@ -644,7 +644,7 @@ export default function DreamyLoveWebsite() {
                           transition={{ duration: 0.75, ease: 'easeInOut' }}
                           className="absolute inset-0 z-10 flex items-center justify-center bg-gradient-to-br from-pink-100 via-yellow-50 to-purple-100 text-center text-sm text-rose-300 shadow-inner"
                         >
-                          <span>{item.photoLabel}</span>
+  
                           <span className="photo-shimmer absolute inset-0" />
                         </motion.div>
                       </div>
